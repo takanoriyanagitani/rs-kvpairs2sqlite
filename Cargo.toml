@@ -3,7 +3,15 @@ name = "rs-kvpairs2sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert JSON KV pairs from stdin to SQLite"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-kvpairs2sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-kvpairs2sqlite"
+documentation = "https://docs.rs/rs-kvpairs2sqlite/latest"
+keywords = ["sqlite", "json", "kvstore", "convert", "wasi"]
+
 exclude = [
+  "kvpairs2sqlite.wasm",
 ]
 
 [lints.rust]
